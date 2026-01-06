@@ -1,8 +1,8 @@
 "use client";
-import Image from "next/image";
+// import Image from "next/image";
 import Link from "next/link";
-import LogoLight from "@/assets/logo.png";
-import LogoDark from "@/assets/logo-dark.png";
+// import LogoLight from "@/assets/logo.png";
+// import LogoDark from "@/assets/logo-dark.png";
 
 export default function Footer() {
   return (

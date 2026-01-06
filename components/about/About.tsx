@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import Footer from "@/components/layout/Footer";
+// import Footer from "@/components/layout/Footer";
 import EmblaCarousel from "@/components/ui/EmblaCarousel";
 
 const slides = [
