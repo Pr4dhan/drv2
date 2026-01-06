@@ -20,10 +20,10 @@ const BottomCornerNav = () => {
   }
 
   const links = [
-    { href: '/', label: 'Home' },
-    { href: '/about', label: 'About' },
-    { href: '/expert', label: 'Expertise' },
-    { href: '/appointment', label: 'Book Appointment' },
+    { href: "/", label: 'Home' },
+    { href: "/#about", label: 'About' },
+    { href: "/#expert", label: 'Expertise' },
+    { href: "/#appointment", label: 'Book Appointment' },
   ]
 
   return (
