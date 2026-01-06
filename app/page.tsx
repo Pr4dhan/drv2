@@ -34,7 +34,7 @@ export default function Home() {
 
           <div className="flex gap-6 xl:mt-1">
             <EmailBtn href="mailto:Dr Anuradha Pradhan <info@anuradhapradhan.com>" />
-            <ContactBtn href="about" />
+            <ContactBtn href="#about" />
           </div>
         </div>
 
