@@ -27,10 +27,10 @@ const slides = [
   // },
 ];
 
-export default function Abour() {
+export default function About() {
   return (
     <>
-      <div className={"flex flex-col items-center"}>
+      <div id="about" className={"flex flex-col items-center"}>
         <div className="m-0 p-0 flex flex-col justify-center w-full text-center mb-12 xl:justify-center pt-24 text-3xl text-black dark:text-white font-bold">
           <div className="text-2xl md:text-4xl text-black dark:text-white font-semibold mb-4">
             About Me
@@ -235,7 +235,8 @@ export default function Abour() {
         </div>
       </div>
 
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
+

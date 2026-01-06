@@ -9,41 +9,6 @@ export default function Footer() {
     <footer className="w-full py-8">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto">
-          <div className="flex justify-center items-center">
-            <Link
-              href="/"
-              id="brand"
-              className="flex items-center gap-2 [&>h1]:hover:text-primary dark:[&>h1]:hover:text-primary-light"
-            >
-              <div aria-label="logo" className="rounded-full p-1 w-[32px]">
-                <Image
-                  className="hidden dark:block"
-                  priority
-                  loading="eager"
-                  src={LogoLight}
-                  alt="my logo"
-                  width={32}
-                  height={32}
-                />
-                <Image
-                  className="block dark:hidden"
-                  priority
-                  loading="eager"
-                  src={LogoDark}
-                  alt="my logo"
-                  width={32}
-                  height={32}
-                />
-              </div>
-              <h1
-                aria-label="dranuradha"
-                className="relative block font-bold text-xs xl:text-sm"
-              >
-                Dr Anuradha Pradhan
-              </h1>
-            </Link>
-          </div>
-
           <ul className="text-base flex items-center justify-center flex-row gap-6 md:gap-10 py-6 mb-4 border-b border-gray-200">
             <li>
               <Link
@@ -80,6 +45,20 @@ export default function Footer() {
           </span>
         </div>
       </div>
+      <h1
+        className="
+          max-w-7xl mx-auto text-center font-black leading-none
+          text-stone-100
+          dark:text-transparent dark:bg-clip-text
+          bg-gradient-to-t
+          dark:bg-gradient-to-b
+          dark:from-[#8c8c8c] dark:via-[#2b2b2b] dark:to-[#010101]
+          opacity-90
+          text-4xl md:text-[6rem]
+          -z-[1]"
+      >
+        DrAnuradhaPradhan
+      </h1>
     </footer>
   );
 }

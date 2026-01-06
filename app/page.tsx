@@ -8,7 +8,7 @@ import ContactBtn from "@/components/layout/buttons/ContactBtn";
 
 export default function Home() {
   return (
-    <>
+    <div className="h-[90vh]">
       <div className="flex flex-col xl:flex-row justify-center items-center gap-10 pt-20 xl:pt-50">
         <div className="flex flex-col items-center xl:items-start gap-10 text-center xl:text-left">
           <div className="flex flex-col items-center xl:items-start gap-5">
@@ -67,6 +67,6 @@ export default function Home() {
           </CardBody>
         </CardContainer>
       </div>
-    </>
+    </div>
   );
 }
